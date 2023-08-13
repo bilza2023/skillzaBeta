@@ -10,7 +10,7 @@ import LoginForm from './loginForm/LoginForm.svelte';
 import Goodbye from './goodbye/Goodbye.svelte';
 import ShowQuizOneByOne from './showQuizOneByOne/ShowQuizOneByOne.svelte';
 import ShowQuizAll from './showQuizAll/ShowQuizAll.svelte';
-// import Result from './result/Result.svelte';
+import Result from './result/Result.svelte';
 import stringToArray from '../editTest/fn/stringToArray';
 
 $: pageState = $pageStateStore;
@@ -77,7 +77,7 @@ onMount(async () => {
 
             <!-- //==result======-->  
             {#if pageState == 'result'}
-              <!-- <Result {quiz} /> -->
+              <Result {quiz} />
             {/if}
 
             <!-- //=goodbye======-->
