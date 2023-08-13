@@ -49,24 +49,7 @@ onMount(async ()=>{
 </div>
 
 <!-- <div class='flex justify-center flex-wrap gap-2 bg-gray-900 p-8 m-8 mt-1 rounded-md border-2 border-white'> -->
-    {#if items}
-    {#each items as item}
-    <h1 class='text-white'>sdsd</h1>
-        <!-- <div class={'w-3/12'}> -->
-            <!-- <CardTemplate -->
-            <!-- <Card
-                title={item.title}
-                url={`/show?quizId=${item._id}` }
-                icon= {Icons.RUN}
-                titleCharsCount={15}
-            /> -->
-            <div class="bg-gray-900 rounded-md p-1 m-1  ">
-
-            <Display  contentItem={item.questions[0].content[0]} /> 
-            </div>
-        <!-- </div> -->
-    {/each}
-    {/if}
+   
 <!-- </div> -->
 <br/>
 <br/>
