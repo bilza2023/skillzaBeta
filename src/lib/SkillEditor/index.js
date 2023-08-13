@@ -4,7 +4,7 @@ import Display from "./Display.svelte";
 
 // Div Component
 import DivEditor from "./div/DivEditor.svelte";
-import DivDisplay from "./list/ListDisplay.svelte";
+import DivDisplay from "./div/DivDisplay.svelte";
 import divData from "./div/divData.js";
 
 // List  Component

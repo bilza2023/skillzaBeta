@@ -1,9 +1,15 @@
 <script>
 //@ts-nocheck
+
 // export let data;
 // export let data;
 export let contentItem
+//   import { onMount } from "$lib/util";
+// onMount(()=>{
+// debugger;
+// console.log(contentItem);
 
+// });
 
 </script>
 {#if contentItem}
@@ -22,6 +28,7 @@ export let contentItem
   style:text-align="{contentItem.textAlign}"
 >
 {contentItem.content}
+xcxxzxzzx
 </div>
 
 {/if}
