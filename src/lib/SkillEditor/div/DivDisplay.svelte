@@ -28,7 +28,6 @@ export let contentItem
   style:text-align="{contentItem.textAlign}"
 >
 {contentItem.content}
-xcxxzxzzx
 </div>
 
 {/if}

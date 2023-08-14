@@ -51,7 +51,7 @@ import MainNav from '$lib/appComp/MainNav.svelte';
            <div class='flex justify-center '>
                 <BtnWIconSm icons={ Icons.SAVE }
                 clk = {()=>loginFn(email,password)}
-                >Save</BtnWIconSm>
+                >Login</BtnWIconSm>
            </div>
 
                 <!-- <button class= {`bg-blue-800 p-2 m-2 rounded-md px-8 hover:bg-gray-500`}
